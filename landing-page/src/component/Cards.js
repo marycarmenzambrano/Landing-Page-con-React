@@ -4,9 +4,7 @@ const object = { width: "18rem" };
 
 function Cards() {
   return (
-    <div>
-      <div className="row">
-      <div className= "row-cols-1 row-cols-md-3 g-4">
+    
         <div className="card" style={object}>
           <img src="https://edgewoodreit.com/wp-content/uploads/2018/01/500x325.png" className="card-img-top" alt="/" />
           <div className="card-body">
@@ -15,9 +13,6 @@ function Cards() {
             <a href="/" className="btn btn-primary">Find Out More!</a>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
   );
 }
 

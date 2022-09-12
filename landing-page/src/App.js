@@ -8,18 +8,21 @@ import Footer from './component/Footer';
 
 function App() {
   return <div className='container'>
-    <Navbar/>
-    <Heading/>
-    <Cards/>
-    <Cards/>
-    <Cards/>
-    <Cards/>
-    <Footer/>
-    
+    <Navbar />
+    <Heading />
+    <div className="row">
+      <div className="col-3"><Cards /></div>
+      <div className="col-3"><Cards /></div>
+      <div className="col-3"><Cards /></div>
+      <div className="col-3"><Cards /></div>
+
+    </div>
+    <Footer />
+
   </div>;
 
-    
-    
+
+
 
 }
 
